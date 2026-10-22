@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Luis Antonio Prado Olmos">
+    <meta name="description" content="Portafolio Personal de Desarrollo Web">
+    <meta name="keywords" content="Hola">
+
+    <title>Portafolio Personal</title>
+
+    <link rel="icon" href="image/icono67.jpg" type="image/icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <img src="image/sick.jpg" alt="logotipo" id="logo">
+
+        <section id="titulos">
+            <h4>Portafolio Personal</h4>
+            <h1 id="tendencia">Luis Antonio Prado Olmos</h1>
+            <h3>
+                Estudiante Desarrollador de software, aspirante a trabajar en el area
+            </h3>
+        </section>
+
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100">
+  <div class="container-fluid p-0">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menuHeader" aria-controls="menuHeader" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="menuHeader">
+      <div class="btn-group btn-group-sm">
+        <a href="index.html" class="btn btn-primary active">Inicio</a>
+        <a href="contacto.html" class="btn btn-primary">Contacto</a>
+      </div>
+    </div>
+  </div>
+</nav>
+        <!-- ========================================================= -->
+
+    </header>
+    <main>
+    <aside>
+        <article>
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <fieldset style="border: 1px solid #ffffff; padding: 15px; border-radius: 8px;">
+                    <legend style="color: #ffffff; font-weight: bold;">Envíame un mensaje</legend>
+
+                    <p>
+                        <label>Nombre:</label><br>
+                        <input type="text" name="nombre" style="width: 100%; color: #000;" required>
+                    </p>
+
+                    <p>
+                        <label>Correo Electrónico:</label><br>
+                        <input type="email" name="correo" style="width: 100%; color: #000;" required>
+                    </p>
+
+                    <p>
+                        <label>Mensaje:</label><br>
+                        <textarea name="mensaje" rows="4" style="width: 100%; color: #000;" required></textarea>
+                    </p>
+
+                    <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Enviar</button>
+                </fieldset>
+            </form>
+        </article>
+    </aside>
+
+    <section>
+        <article>
+            <h2>Ubicación</h2>
+            <iframe id="mapa" class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.49258925232!2d-101.603383!3d21.132808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbee545db270d%3A0x8613fb25db544837!2sRomero%20110%2C%20Paseos%20del%20Molino%2C%2037290%20Le%C3%B3n%2C%20Gto.!5e0!3m2!1ses!2smx!4v1700000000000!5m2!1ses!2smx" style="border:0; height: 350px; border-radius: 8px;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </article>
+    </section>
+</main>
+    
